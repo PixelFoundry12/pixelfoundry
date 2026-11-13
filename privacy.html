@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="logo.svg">
+<title>Pixel Foundry Privacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Inter:wght@400;600&display=swap">
+<style>
+/* layout: a forge-dark brand band, then one readable column of numbered policy sections */
+:root {
+  --bg: #fbf8fd; --fg: #251a33; --muted: #6b5d7a; --rule: #e6ddef;
+  --band: #241638; --band-fg: #fff3e0; --ember: #ff8a3d; --link: #b2367a;
+  --display: "Silkscreen", "Courier New", monospace; --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #17101f; --fg: #efe8f6; --muted: #a998ba; --rule: #33264a; --band: #0f0918; --band-fg: #fff3e0; --ember: #ffa25e; --link: #ff8cc6; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #17101f; --fg: #efe8f6; --muted: #a998ba; --rule: #33264a; --band: #0f0918; --band-fg: #fff3e0; --ember: #ffa25e; --link: #ff8cc6; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65; }
+.band { background: var(--band); color: var(--band-fg); }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.band .wrap { padding-block: 28px 32px; display: flex; flex-direction: column; gap: 14px; }
+.brand { display: flex; align-items: center; gap: 12px; font-family: var(--display); font-size: 15px; letter-spacing: .06em; }
+.brand img { width: 40px; height: 40px; image-rendering: pixelated; border-radius: 8px; }
+.brand span b { color: var(--ember); font-weight: 700; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(26px, 6vw, 38px); line-height: 1.15; margin: 0; text-wrap: balance; }
+.meta { font-size: 14px; opacity: .8; margin: 0; }
+main .wrap { padding-block: 28px 56px; }
+main p, main li { max-width: 65ch; }
+.lead { font-size: 17px; }
+h2 { font-size: 18px; font-weight: 600; margin: 32px 0 6px; padding-top: 18px; border-top: 1px solid var(--rule); text-wrap: balance; }
+h2 .n { font-family: var(--display); color: var(--ember); margin-right: 8px; font-size: 14px; }
+ul { padding-left: 20px; }
+li { margin: 4px 0; }
+a { color: var(--link); }
+a:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--rule); margin-top: 40px; padding-top: 16px; }
+</style>
+</head>
+<body>
+<header class="band"><div class="wrap">
+  <div class="brand"><img src="logo.svg" alt="Pixel Foundry logo"><span>PIXEL <b>FOUNDRY</b></span></div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Pixel Foundry Poster &middot; Effective November 12, 2026</p>
+</div></header>
+<main><div class="wrap">
+<p class="lead">This policy explains what Pixel Foundry Poster, the tool Pixel Foundry uses to post videos of its Roblox games to its own TikTok account, collects and how it is used.</p>
+<h2><span class="n">01</span>What we collect</h2>
+<p>Only data from Pixel Foundry's own TikTok account, through TikTok's official APIs:</p><ul><li>Basic profile details (account ID, display name, avatar) so the app knows which account is signed in.</li><li>The account's own public videos and their view, like, comment and share counts.</li><li>Sign-in tokens that TikTok issues so the app can post.</li></ul><p>We do not collect data about other TikTok users, viewers or commenters, and we do not use cookies or trackers on this page.</p>
+<h2><span class="n">02</span>How we use it</h2>
+<ul><li>To post gameplay videos of our games to our own account.</li><li>To show us how those videos perform, so we can plan better ones.</li></ul>
+<h2><span class="n">03</span>Where it is kept</h2>
+<p>Sign-in tokens and video stats are stored on Pixel Foundry's own computer. A summary of video stats is kept in a private dashboard that only Pixel Foundry can open.</p>
+<h2><span class="n">04</span>Sharing</h2>
+<p>We do not sell, rent or share this data with anyone. It is sent only to TikTok, when the app talks to TikTok's API.</p>
+<h2><span class="n">05</span>Keeping and deleting data</h2>
+<p>We keep video stats for as long as they help us plan content. Access can be removed at any time in the TikTok app under Settings and privacy, Security and permissions, Apps and services permissions. When access is removed, we delete the stored sign-in tokens.</p>
+<h2><span class="n">06</span>Children</h2>
+<p>The app is used only by Pixel Foundry and is not directed at children. We do not knowingly collect data from anyone under 13.</p>
+<h2><span class="n">07</span>Changes to this policy</h2>
+<p>If this policy changes, we will update this page and the date at the top.</p>
+<h2><span class="n">08</span>Contact</h2>
+<p>Questions or requests: send a direct message to the Pixel Foundry account on TikTok. We aim to reply within 7 days.</p>
+<footer>Pixel Foundry is an independent Roblox game studio and is not affiliated with or endorsed by TikTok or Roblox. <a href="terms.html">Terms of Service</a></footer>
+</div></main>
+</body>
+</html>
