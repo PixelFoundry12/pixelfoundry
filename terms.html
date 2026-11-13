@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="logo.svg">
+<title>Pixel Foundry Terms</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Inter:wght@400;600&display=swap">
+<style>
+/* layout: a forge-dark brand band, then one readable column of numbered policy sections */
+:root {
+  --bg: #fbf8fd; --fg: #251a33; --muted: #6b5d7a; --rule: #e6ddef;
+  --band: #241638; --band-fg: #fff3e0; --ember: #ff8a3d; --link: #b2367a;
+  --display: "Silkscreen", "Courier New", monospace; --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #17101f; --fg: #efe8f6; --muted: #a998ba; --rule: #33264a; --band: #0f0918; --band-fg: #fff3e0; --ember: #ffa25e; --link: #ff8cc6; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #17101f; --fg: #efe8f6; --muted: #a998ba; --rule: #33264a; --band: #0f0918; --band-fg: #fff3e0; --ember: #ffa25e; --link: #ff8cc6; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65; }
+.band { background: var(--band); color: var(--band-fg); }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.band .wrap { padding-block: 28px 32px; display: flex; flex-direction: column; gap: 14px; }
+.brand { display: flex; align-items: center; gap: 12px; font-family: var(--display); font-size: 15px; letter-spacing: .06em; }
+.brand img { width: 40px; height: 40px; image-rendering: pixelated; border-radius: 8px; }
+.brand span b { color: var(--ember); font-weight: 700; }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(26px, 6vw, 38px); line-height: 1.15; margin: 0; text-wrap: balance; }
+.meta { font-size: 14px; opacity: .8; margin: 0; }
+main .wrap { padding-block: 28px 56px; }
+main p, main li { max-width: 65ch; }
+.lead { font-size: 17px; }
+h2 { font-size: 18px; font-weight: 600; margin: 32px 0 6px; padding-top: 18px; border-top: 1px solid var(--rule); text-wrap: balance; }
+h2 .n { font-family: var(--display); color: var(--ember); margin-right: 8px; font-size: 14px; }
+ul { padding-left: 20px; }
+li { margin: 4px 0; }
+a { color: var(--link); }
+a:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; }
+footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--rule); margin-top: 40px; padding-top: 16px; }
+</style>
+</head>
+<body>
+<header class="band"><div class="wrap">
+  <div class="brand"><img src="logo.svg" alt="Pixel Foundry logo"><span>PIXEL <b>FOUNDRY</b></span></div>
+  <h1>Terms of Service</h1>
+  <p class="meta">Pixel Foundry Poster &middot; Effective November 12, 2026</p>
+</div></header>
+<main><div class="wrap">
+<p class="lead">These terms cover Pixel Foundry Poster, the tool Pixel Foundry uses to post videos of its Roblox games to its own TikTok account.</p>
+<h2><span class="n">01</span>What the app is</h2>
+<p>Pixel Foundry Poster is a small tool run by Pixel Foundry, an independent Roblox game studio. It posts short gameplay videos of our own Roblox games, such as Boba Tycoon, to the Pixel Foundry TikTok account, and reads the view, like, comment and share counts of those videos so we can see how they perform.</p>
+<h2><span class="n">02</span>Who can use it</h2>
+<p>The app is for Pixel Foundry's own account only. It is not offered to the public, and no one else can sign in to it or post through it.</p>
+<h2><span class="n">03</span>Using TikTok</h2>
+<p>When the app posts, it uses TikTok's official Content Posting API. Every post must follow the <a href="https://www.tiktok.com/legal/terms-of-service" target="_blank" rel="noopener">TikTok Terms of Service</a> and <a href="https://www.tiktok.com/community-guidelines" target="_blank" rel="noopener">Community Guidelines</a>. Pixel Foundry is responsible for the videos it posts.</p>
+<h2><span class="n">04</span>Our content</h2>
+<p>The videos, game footage, logos and music the app posts are made by Pixel Foundry or are used with permission. Do not copy or reuse them without asking us first.</p>
+<h2><span class="n">05</span>No warranty</h2>
+<p>The app is provided "as is". We may change, pause or stop it at any time, and we are not responsible for interruptions caused by TikTok, Roblox or anyone else's services.</p>
+<h2><span class="n">06</span>Changes to these terms</h2>
+<p>If these terms change, we will update this page and the date at the top.</p>
+<h2><span class="n">07</span>Contact</h2>
+<p>Questions or requests: send a direct message to the Pixel Foundry account on TikTok. We aim to reply within 7 days.</p>
+<footer>Pixel Foundry is an independent Roblox game studio and is not affiliated with or endorsed by TikTok or Roblox. <a href="privacy.html">Privacy Policy</a></footer>
+</div></main>
+</body>
+</html>
